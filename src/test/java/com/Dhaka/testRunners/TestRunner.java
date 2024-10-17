@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = {"src/test/resources/Featuress"} , 
 plugin = {"json:target/cucumber.json"},
-glue = "com.Dhaka.steps",tags= "@Regreation1")
+glue = "com.Dhaka.steps",tags= "@Regreation")
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 	
